@@ -166,3 +166,35 @@ footer p{
 footer a{
     color: #bbb;
 }
+
+@media screen and (max-width : 480px) {
+    header {background-image : none; width:auto; margin : 0; height: 160px;}
+    nav {margin-top: 0}
+    nav ul { margin-left: 0; margin-top: 0; padding-left: 0;}
+    nav li a { display: block;}
+    margin-top : 1px;
+    height : 25px;
+    padding : 1px;
+    #principal {width: auto; height: auto;}
+    #principal article { width : auto; height: 100%; float : none;}
+    #principal aside { display: none;}
+    #sectionthema { height: auto; margin: 0 auto 0 auto  ; width : 100%; }
+    #sectionthema article { height : auto;}
+    #sectionthema #gauche,
+    #sectionthema #droite,
+    #sectionthema #milieu { background-image: none; width: 30%; float: left;}
+    footer { display : none !important;}
+    #casques {width : 20%; height: 100%; margin : 0 10px 0 10px; }
+}
+@media screen and (max-width : 1024px) {
+    header {background-size: contain ; width:auto; margin: 0;}
+    #principal { width: auto; height: auto;}
+    #principal article { width: 70%; height: 100%; }
+    #principal aside {width: 30%; height: 100%;}
+    #sectionthema {height: auto; margin: 0 auto 0 auto; width : 100%;}
+    #sectionthema h1 {text-align: center;  margin-top: 420px; }
+    #sectionthema #gauche,
+    #sectionthema #droite,
+    #sectionthema #milieu { background-size: contain; width : 30%; float: left;}
+    
+}
